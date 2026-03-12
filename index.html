@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Leckerli+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+</head>
+
+<body>
+  <div class="geral">
+
+    <div class="logo">
+      <img src="img/logo.svg" alt="logo-marca">
+    </div>
+
+    <a href="#"> <img src="img/Arrow - Left 3.svg" alt=""> Voltar</a>
+
+    <h1>Compras da Semana</h1>
+
+    <div class="flex">
+      <input class="button" type="text" id="add"  placeholder="Adicione um novo item">
+      <button class="button">Adicionar item</button>
+    </div>
+
+    <ul>
+        <li class="container">
+          <input type="checkbox" id="item1" class="custom-check">
+          <label for="item1">Pão de forma</label>
+          <img  src="img/lixeira.svg" alt="" class="delete-icon">
+        </li>
+
+        <li class="container">
+          <input type="checkbox" id="item2" class="custom-check">
+          <label for="item2">Café preto</label>
+          <img src="img/lixeira.svg" alt="" class="delete-icon">
+        </li>
+
+        <li class="container">
+          <input type="checkbox" id="item3" class="custom-check">
+          <label for="item3">Suco de laranja</label>
+          <img src="img/lixeira.svg" alt="" class="delete-icon">
+        </li>
+
+        <li class="container">
+          <input type="checkbox" id="item4" class="custom-check">
+          <label for="item4">Bolacha</label>
+          <img src="img/lixeira.svg" alt="" class="delete-icon">
+        </li>
+    </ul>
+
+    <div class="alert">
+      <img src="img/warning-circle-filled.svg" alt="">
+      <p>O item foi removido da lista</p>
+      <img src="img/delete-small.svg" alt="" class="close-icon">
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
