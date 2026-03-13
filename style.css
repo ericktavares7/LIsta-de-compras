@@ -26,6 +26,7 @@
   --label: 600 1rem var(--font-family);
   --paragraph: 500 1rem var(--font-family);
   --link: 500 0.87rem var(--font-family);
+  --placeholder: 400 1rem var(--font-family);
 }
 
 body {
@@ -54,11 +55,12 @@ body {
   align-items: center;
 
   width: 100%;
-  max-width: 24.37rem;
+  max-width: 30rem;
   margin: 0 auto;
-
-  padding-left: 2rem;
-  padding-right: 2rem;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  gap: 1rem;
+  min-height: 100vh;
 }
 
 a {
@@ -93,6 +95,10 @@ ul {
   margin-top: 2.5rem;
   list-style: none;
   padding: 0;
+}
+
+ul label {
+  font: var(--label);
 }
 
 li {
@@ -166,20 +172,23 @@ ul,
   /* Alinha o início de cada um na esquerda */
 }
 
-@media(width >= 1080px){
+@media(width >=1080px) {
 
   .geral {
-    max-width: 50rem; /* Você pode aumentar a largura da lista no PC */
-    padding: 0 5rem;  /* Pode aumentar o respiro lateral */
+    max-width: 37.5rem;
+    /* Você pode aumentar a largura da lista no PC */
+    padding: 2.5rem;
+    /* Pode aumentar o respiro lateral */
   }
 
   h1 {
-    font-size: 2.5rem; /* Título maior no computador */
+    font-size: 2.5rem;
+    /* Título maior no computador */
     margin-top: 2rem;
   }
 
   .flex {
     /* No PC, o input e o botão ficam um ao lado do outro (se você mudou no mobile) */
-    flex-direction: row; 
+    flex-direction: row;
   }
 }

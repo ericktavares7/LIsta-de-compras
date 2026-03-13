@@ -1,4 +1,4 @@
-🛒 Lista de Compras Inter
+🛒 Lista de Compras
 Uma aplicação web moderna e responsiva para gerenciar suas compras semanais de forma simples e intuitiva.
 
 Este projeto é uma Lista de Compras desenvolvida com HTML, CSS e JavaScript puro. Permite adicionar, remover e marcar itens como comprados, com uma interface limpa e responsiva.

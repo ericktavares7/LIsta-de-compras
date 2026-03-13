@@ -11,7 +11,8 @@ function addItem(text) {
   // Cria um ID único usando a hora atual, para o checkbox funcionar.
   const id = Date.now();
 
-  newItem.innerHTML = `
+  newItem.innerHTML =
+   `
     <input type="checkbox" id="${id}" class="custom-check">
     <label for="${id}">${text}</label>
     <img src="img/lixeira.svg" alt="remover" class="delete-icon">
