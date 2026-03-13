@@ -55,12 +55,11 @@ body {
   align-items: center;
 
   width: 100%;
-  max-width: 30rem;
+  max-width: 90%;
+  overflow-x: hidden;
+
   margin: 0 auto;
-  box-sizing: border-box;
-  padding: 1.5rem;
-  gap: 1rem;
-  min-height: 100vh;
+  padding: 0 1.5rem;
 }
 
 a {
